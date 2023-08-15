@@ -1,14 +1,24 @@
 body {
-    background-color: #F5F4EF;
-    color: #020901;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../images/bkgrd-img.svg');
+    background-repeat: repeat-x;
+    background-color:  #F5FEFF; 
+    color: #08091C;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 .customNav{
     position:fixed;
     width: 100%;
-    background-color: #F8F991 !important;
+    background-color: #7C87F2 !important;
     
     z-index: 10;
 }
@@ -45,87 +55,26 @@ body {
 .jumbotron{
     border-top: 4px solid #251236;
     border-bottom: 4px solid #251236;
-    background-image: url(/Images/poppyPattern.svg);
-    background-repeat: repeat;
     background-size: cover;
-    background-color: rgb(188,152,232, 50%); 
+   
     height: 600px;
-}
-
-.mockTron{
     margin:auto;
-    border: 3px solid #251236;
-    padding-left: 200px;
 }
-
-.color_funk{
-    background-color: rgb(45,100,64,80%);
+.margin{
+   margin-left: 2%;
 }
-.footer {
-    margin-top: 50px;
-    background-color: #4776DF;
-    color: #F5F4EF;
-    height: 245px;
-    width: 100%;
-}
-
-.upperline {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin:auto;
+.mocktron{
     
+    max-width:100%;
+    padding-left: 30%;
+
 }
-.f-dis{
-    padding-left: 50px;
-    margin-bottom: 0px;
-    font-size: 50px;
-    border-bottom: 3px solid #f5f4ef;
-    width: 100%;
-}
-.lower_line{
-    display: flex;
-    padding-top: 10px;
-    padding-left:50px;
-    font-size: 18px;
-    font-weight: 300;
-}
-.lower-left{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    margin-right: 50px;
-}
-.short-me{
-    width: 100%;
-}
-.social-media{
-    margin-top: 30px;
-}
-.copyright{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 14px;
+.infoDump{
+    padding-top: 3%;
+    padding-left: 2%;
+    text-align: left;
+    background-color: rgb(188,152,232, 50%); 
 }
 
 
-.ux-work{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    padding-left: 150px;   
-}
-.ux-work span{
-    font-weight: 400;
-}
-.ux-work ul{
-    list-style-type: none;
-}
-.ux-work li:hover{
-    text-decoration: underline;
-}
 
-.process li{
-    display: inline;
-    
-}
