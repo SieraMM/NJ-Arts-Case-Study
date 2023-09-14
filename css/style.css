@@ -145,9 +145,14 @@ figcaption{
     width:40%;
     margin: auto;
 }
-.narrowImgWidth{
+.tinyImgWidth{
     width: 30%;
     margin:auto;
 
 }
+.cardColor{
+    background-color: #C4D6FB;
+}
+
+
 
